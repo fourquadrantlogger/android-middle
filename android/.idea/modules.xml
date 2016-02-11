@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstart/bootstart.iml" filepath="$PROJECT_DIR$/bootstart/bootstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastexample/broadcastexample.iml" filepath="$PROJECT_DIR$/broadcastexample/broadcastexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/takeoffline/takeoffline.iml" filepath="$PROJECT_DIR$/takeoffline/takeoffline.iml" />
+    </modules>
+  </component>
+</project>
