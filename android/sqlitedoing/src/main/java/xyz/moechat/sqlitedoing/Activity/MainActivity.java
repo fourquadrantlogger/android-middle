@@ -1,9 +1,14 @@
-package xyz.moechat.sqlitedoing;
+package xyz.moechat.sqlitedoing.Activity;
 
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
+import android.widget.Button;
+
+import xyz.moechat.sqlitedoing.R;
 
 public class MainActivity extends  Activity implements DialogInterface.OnClickListener{
 
@@ -18,7 +23,14 @@ public class MainActivity extends  Activity implements DialogInterface.OnClickLi
     public void onClick(DialogInterface dialog, int which) {
         switch (which){
             case R.id.showtable:{
-                
+                Button btn_showtable=(Button)findViewById(R.id.showtable);
+                btn_showtable.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent=new Intent(MainActivity.this, showtable.class);
+                        startActivity(intent);
+                    }
+                });
             }
         }
     }

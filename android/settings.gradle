@@ -1,1 +1,1 @@
-include ':broadcastexample', ':bootstart', ':takeoffline', ':filedoing', ':sqlitedoing'
+include ':broadcastexample', ':bootstart', ':takeoffline', ':filedoing', ':sqlitedoing', ':mvploginactivity'
