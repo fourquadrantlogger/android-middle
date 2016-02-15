@@ -19,6 +19,7 @@ public class MainActivity extends MoeActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent("xyz.moechat.takeoffline.FORCE_OFFLINE");
+
                 sendBroadcast(intent);
             }
         });
