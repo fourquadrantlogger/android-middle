@@ -1,4 +1,4 @@
-package xyz.moechat.sqlitedoing.Activity;
+package xyz.moechat.sqlitedoing.view;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
+import xyz.moechat.sqlitedoing.Activity.showtable;
 import xyz.moechat.sqlitedoing.R;
 
 public class MainActivity extends  Activity implements DialogInterface.OnClickListener{
