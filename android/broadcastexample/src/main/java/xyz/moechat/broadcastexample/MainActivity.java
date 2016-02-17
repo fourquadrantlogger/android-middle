@@ -36,13 +36,13 @@ public class MainActivity extends Activity {
             NetworkInfo networkInfo =connectionManager.getActiveNetworkInfo();
             if(networkInfo!=null&&networkInfo.isAvailable()){
                 //网络正常
-                Toast.makeText(MainActivity.this,"网络正常",Toast.LENGTH_SHORT).show();
-                Log.v("moe","网络正常");
+                Toast.makeText(MainActivity.this,"喵～网络正常",Toast.LENGTH_SHORT).show();
+                Log.v("moe","喵～网络正常");
             }else
             {
                 //网络中断了
-                Toast.makeText(MainActivity.this,"网络中断了",Toast.LENGTH_SHORT).show();
-                Log.v("moe","网络中断了");
+                Toast.makeText(MainActivity.this,"喵～网络中断了",Toast.LENGTH_SHORT).show();
+                Log.v("moe","喵～网络中断了");
             }
 
         }
