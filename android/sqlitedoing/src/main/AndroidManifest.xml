@@ -8,11 +8,31 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".view.MainActivity" >
+        <activity
+            android:launchMode="singleTask"
+            android:name=".view.Activityshowapp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.Activityupdate"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name=".view.Activityupdate"></action>
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.Activityquery"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name=".view.Activityquery"></action>
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.Activityadd"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name=".view.Activityadd"></action>
             </intent-filter>
         </activity>
     </application>
