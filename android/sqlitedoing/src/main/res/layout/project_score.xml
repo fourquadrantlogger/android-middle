@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="0dp"
+        android:id="@+id/editText_project"
+        android:background="@drawable/edittext"
+        android:layout_height="match_parent"
+        android:textSize="14sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        android:layout_weight="0.3" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="成绩"
+        android:textColor="@color/moeblack"
+        android:textSize="15sp"
+        android:layout_weight="0.2"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="5dp" />
+    <EditText
+        android:id="@+id/editText_score"
+        android:background="@drawable/edittext"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="14sp"
+        android:layout_weight="0.3"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:inputType="number" />
+</LinearLayout>
