@@ -37,6 +37,7 @@ public class buttomnav extends LinearLayout{
         linearLayout_query.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.v("moe","query 1");
                 toActivity(1);
             }
         });
@@ -45,6 +46,7 @@ public class buttomnav extends LinearLayout{
         linearLayout_add.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.v("moe","add 2");
                 toActivity(2);
             }
         });
@@ -53,6 +55,7 @@ public class buttomnav extends LinearLayout{
         linearLayout_update.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.v("moe", "update 3");
                 toActivity(3);
             }
         });
@@ -96,7 +99,8 @@ public class buttomnav extends LinearLayout{
     public void toActivity(int id){
         Intent intent;
 
-        if(id==getselectedid())return;
+        if(id==getselectedid())
+            return;
 
         if(id==1) {
             intent=new Intent(buttomnav.this.getContext(),Activityquery.class);
@@ -105,10 +109,7 @@ public class buttomnav extends LinearLayout{
         }else{
             intent=new Intent(buttomnav.this.getContext(),Activityupdate.class);
         }
-        Log.v("moe","startActivity"+Integer.toString(getselectedid()));
-
-        //设置没有动画
-        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        Log.v("moe", "startActivity" + Integer.toString(id));
         buttomnav.this.getContext().startActivity(intent);
     }
 }

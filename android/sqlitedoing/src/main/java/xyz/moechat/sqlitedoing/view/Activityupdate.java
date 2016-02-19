@@ -13,10 +13,13 @@ public class Activityupdate extends MoeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update);
+
+        initViews();
     }
-    @Override
-    public void finish() {
-        super.finish();
-        overridePendingTransition(0,0);
+    void initViews(){
+        title=(title)findViewById(R.id.moetitle);
+        title.settitle("sqlite update");
     }
+    title title;
+
 }

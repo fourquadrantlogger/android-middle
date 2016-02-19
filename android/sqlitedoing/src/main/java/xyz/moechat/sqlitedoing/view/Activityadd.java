@@ -17,10 +17,13 @@ public class Activityadd extends MoeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
+
+        initViews();
     }
-    @Override
-    public void finish() {
-        super.finish();
-        overridePendingTransition(0, 0);
+    void initViews(){
+        title=(title)findViewById(R.id.moetitle);
+        title.settitle("sqlite add");
     }
+    title title;
+
 }

@@ -1,7 +1,8 @@
 package xyz.moechat.sqlitedoing.view;
 
 import android.os.Bundle;
-
+import android.widget.TextView;
+import xyz.moechat.sqlitedoing.view.title;
 import xyz.moechat.sqlitedoing.R;
 import xyz.moechat.sqlitedoing.common.MoeActivity;
 
@@ -13,10 +14,13 @@ public class Activityquery extends MoeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_query);
+
+        initViews();
     }
-    @Override
-    public void finish() {
-        super.finish();
-        overridePendingTransition(0,0);
+    void initViews(){
+        title=(title)findViewById(R.id.moetitle);
+        title.settitle("sqlite query");
     }
+    title title;
+
 }

@@ -18,6 +18,7 @@ public class MoeActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        overridePendingTransition(0, 0);
         ActivityCollector.removeActivity(this);
     }
 }

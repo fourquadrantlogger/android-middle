@@ -5,12 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_above="@+id/moenav"
+        android:layout_below="@+id/moetitle"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
     <xyz.moechat.sqlitedoing.view.title
+        android:id="@+id/moetitle"
         android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <xyz.moechat.sqlitedoing.view.buttomnav
+        android:id="@+id/moenav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
