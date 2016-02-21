@@ -37,7 +37,7 @@
                 android:padding="5dp" />
 
             <EditText
-                android:id="@+id/edit_sduid"
+                android:id="@+id/editText_sduid"
                 android:background="@drawable/edittext"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"

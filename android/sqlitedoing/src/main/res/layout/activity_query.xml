@@ -29,7 +29,7 @@
                 android:padding="5dp" />
 
             <EditText
-                android:id="@+id/edit_sduid"
+                android:id="@+id/editText_sduid"
                 android:background="@drawable/edittext"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -131,7 +131,13 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp" />
         </LinearLayout>
-
+        <ListView
+            android:id="@+id/listView_projects"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </ListView>
     </LinearLayout>
 
     <xyz.moechat.sqlitedoing.view.title

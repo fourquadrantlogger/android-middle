@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/dividingline_vertical"></include>
+    <TextView
+        android:id="@+id/textView_stuid"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="56486184"
+        android:textColor="@color/moeblack"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/textView_stuname"
+        android:text="李鹏"
+        android:textColor="@color/moeblack"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="12dp"/>
+
+    <ListView
+        android:id="@+id/listView_scores"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content">
+    </ListView>
+    <include layout="@layout/dividingline_vertical"></include>
+</LinearLayout>
