@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/bootstart/bootstart.iml" filepath="$PROJECT_DIR$/bootstart/bootstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcastexample/broadcastexample.iml" filepath="$PROJECT_DIR$/broadcastexample/broadcastexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/cameracut/cameracut.iml" filepath="$PROJECT_DIR$/cameracut/cameracut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/choosephoto/choosephoto.iml" filepath="$PROJECT_DIR$/choosephoto/choosephoto.iml" />
       <module fileurl="file://$PROJECT_DIR$/filedoing/filedoing.iml" filepath="$PROJECT_DIR$/filedoing/filedoing.iml" />
       <module fileurl="file://$PROJECT_DIR$/moecamera/moecamera.iml" filepath="$PROJECT_DIR$/moecamera/moecamera.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvploginactivity/mvploginactivity.iml" filepath="$PROJECT_DIR$/mvploginactivity/mvploginactivity.iml" />

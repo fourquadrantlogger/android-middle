@@ -11,3 +11,5 @@
 ![sqlitedoing](/img/sqlitedoing.gif)
 ## cameracut
 ![cameracut](/img/cameracut.gif)
+## choosephoto
+![choosephoto](/img/choosephoto.gif)

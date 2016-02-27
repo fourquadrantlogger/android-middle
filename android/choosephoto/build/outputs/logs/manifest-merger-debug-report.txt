@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:2:1-23:12
+	xmlns:android
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+application
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:9:9-41
+	android:allowBackup
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:8:9-37
+	android:theme
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:11:9-40
+	android:hardwareAccelerated
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:6:9-44
+activity#xyz.moechat.choosephoto.Activity_main
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:12:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:16:27-74
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:21:5-83
+	android:name
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:21:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml:22:22-78
+uses-sdk
+INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/MacData/github.com/timeloveboy/android-middle/android/choosephoto/src/main/AndroidManifest.xml
