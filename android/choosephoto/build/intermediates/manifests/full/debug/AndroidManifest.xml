@@ -10,7 +10,7 @@
     <!-- 在SDCard中创建与删除文件权限 -->
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
+    <!-- 禁止硬件加速，以便显示大照片 -->
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"

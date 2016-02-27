@@ -13,3 +13,7 @@
 ![cameracut](/img/cameracut.gif)
 ## choosephoto
 ![choosephoto](/img/choosephoto.gif)
+## musicplayer
+...
+
+可以选择一首音乐进行播放（音乐文件不能太大）

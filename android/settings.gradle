@@ -1,1 +1,1 @@
-include ':broadcastexample', ':bootstart', ':takeoffline', ':filedoing', ':sqlitedoing', ':mvploginactivity', ':moecamera', ':cameracut', ':choosephoto'
+include ':broadcastexample', ':bootstart', ':takeoffline', ':filedoing', ':sqlitedoing', ':mvploginactivity', ':moecamera', ':cameracut', ':choosephoto', ':musicplayer'

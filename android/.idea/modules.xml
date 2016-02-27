@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/choosephoto/choosephoto.iml" filepath="$PROJECT_DIR$/choosephoto/choosephoto.iml" />
       <module fileurl="file://$PROJECT_DIR$/filedoing/filedoing.iml" filepath="$PROJECT_DIR$/filedoing/filedoing.iml" />
       <module fileurl="file://$PROJECT_DIR$/moecamera/moecamera.iml" filepath="$PROJECT_DIR$/moecamera/moecamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicplayer/musicplayer.iml" filepath="$PROJECT_DIR$/musicplayer/musicplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvploginactivity/mvploginactivity.iml" filepath="$PROJECT_DIR$/mvploginactivity/mvploginactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlitedoing/sqlitedoing.iml" filepath="$PROJECT_DIR$/sqlitedoing/sqlitedoing.iml" />
       <module fileurl="file://$PROJECT_DIR$/takeoffline/takeoffline.iml" filepath="$PROJECT_DIR$/takeoffline/takeoffline.iml" />
